@@ -1,3 +1,4 @@
+
 -- second
 CREATE TABLE departments (
      dept_no VARCHAR(4) NOT NULL,
@@ -65,5 +66,3 @@ from_date DATE NOT NULL,
 to_date DATE NOT NULL,
 PRIMARY KEY (emp_no, dept_no)
 );
-
-SELECT * FROM dept_emp;
